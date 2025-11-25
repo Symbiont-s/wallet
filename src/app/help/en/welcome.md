@@ -280,13 +280,10 @@ Don't get discouraged if you don't earn much at first. Keep up the good work!
 - [Bluepaper](https://steem.io/steem-bluepaper.pdf) - Explanation of how the platform works
 - [The Steem Whitepaper](https://steem.io/SteemWhitePaper.pdf) - Technical details of the Steem blockchain
 - [Apps Built on Steem] will come up soon  - Directory of apps, sites and tools built by Steem community
-- [SteemDB](https://Steemdb.io/) - Analysis pages for the Steem blockchain data
-- [SteemScan](https://steemscan.com/) - Analysis pages for the Steem blockchain data
+- [Steem Blockchain Explorer](https://Steemdb.io/) - Analysis pages for the Steem blockchain data
 
 <a href="#Table_of_Contents">^</a>
 ## <span id="Get_Help">Get Help</span>
-
-
 
 New Member Support Community is a group of people dedicated to helping new users find their way around Steemit. You can find them in the [New Member Support Community](https://discord.gg/HYj4yvw) channel of Discord Chat.
 
