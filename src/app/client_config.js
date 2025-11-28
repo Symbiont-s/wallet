@@ -53,5 +53,5 @@ export const SITE_DESCRIPTION =
 export const SUPPORT_EMAIL = 'support@' + APP_DOMAIN;
 
 // External links
-export const STEEMSCAN_BLOCK_URL = "https://steemscan.com/block";
-export const STEEMSCAN_TRANSACTION_URL = "https://steemscan.com/transaction";
+export const STEEMDB_BLOCK_URL = "https://steemdb.io/block";
+export const STEEMDB_TRANSACTION_URL = "https://steemdb.io/tx";

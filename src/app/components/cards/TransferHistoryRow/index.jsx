@@ -6,7 +6,7 @@ import Memo from 'app/components/elements/Memo';
 import { numberWithCommas, vestsToSp } from 'app/utils/StateFunctions';
 import tt from 'counterpart';
 import GDPRUserList from 'app/utils/GDPRUserList';
-import { STEEMSCAN_BLOCK_URL, STEEMSCAN_TRANSACTION_URL } from 'app/client_config';
+import { STEEMDB_BLOCK_URL, STEEMDB_TRANSACTION_URL } from 'app/client_config';
 
 class TransferHistoryRow extends React.Component {
     render() {
@@ -293,10 +293,10 @@ class TransferHistoryRow extends React.Component {
                 <td style={{ whiteSpace: 'nowrap', width: '1%' }}>
                     <TimeAgoWrapper date={op[1].timestamp} />
                     {block && (<div>
-                        Block: <a href={`${STEEMSCAN_BLOCK_URL}/${block}`} target="_blank" >{block}</a>
+                        Block: <a href={`${STEEMDB_BLOCK_URL}/${block}`} target="_blank" >{block}</a>
                     </div>)}
                     {(trx && trx !== '0000000000000000000000000000000000000000') && (<div>
-                        TxID: <a href={`${STEEMSCAN_TRANSACTION_URL}/${trx}`} target="_blank" >{trx}</a>
+                        TxID: <a href={`${STEEMDB_TRANSACTION_URL}/${trx}`} target="_blank" >{trx}</a>
                     </div>)}
                 </td>
                 <td
